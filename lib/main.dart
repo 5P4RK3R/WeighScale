@@ -71,9 +71,13 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(' '),
+        title: Text(
+          'Weigh Scale',
+          textAlign: TextAlign.center,
+        ),
       ),
       body: Container(
+        margin: EdgeInsets.symmetric(vertical: 100.0),
         child: WeighScale()
           ..arcSelectedCallback = (int pos, List<dynamic> arcItems) {
             int animPosition = pos - 2;
