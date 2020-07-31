@@ -2,7 +2,7 @@
 Flutter Weight Scale UI- In Progress
 
 # Android
-![](images:screenshot/android.png)
+![](screenshot/android.png)
 
 # ios
-![](images:screenshot/ios.png)
+![](screenshot/ios.png)
