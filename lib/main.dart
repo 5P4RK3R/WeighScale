@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
         ),
       ),
       body: Container(
-        margin: EdgeInsets.all(200.0),
+        margin: EdgeInsets.symmetric(vertical: 100.0),
         child: WeighScale()
           ..arcSelectedCallback = (int pos, List<dynamic> arcItems) {
             int animPosition = pos - 2;
